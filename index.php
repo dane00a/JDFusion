@@ -8,7 +8,10 @@
     <?php include('menu.html'); ?>
     <div class="wrapper">
       <div class="cont white">
-
+        <h1>Welcome</h1>
+        <p>
+          Welcome to the future of Do-It-Yourself Fusion.
+        </p>
       </div>
       <div class="cont purp">
 

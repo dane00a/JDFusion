@@ -1,8 +1,17 @@
 .cont{
-  height: 500px;
+  min-height: 500px;
   width:100%;
   font-family:Segoe UI, Verdana, serif;
 }
+body{
+  font-family:Segoe UI, Verdana, sans-serif;
+}
 .black{
-  background-color:
+  color: #222;
+}
+.purp{
+  color: #532971;
+}
+.white{
+  color:#FFF;
 }
