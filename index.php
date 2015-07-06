@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
   <head>
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <!--<script src="//code.jquery.com/jquery-latest.min.js"></script>
