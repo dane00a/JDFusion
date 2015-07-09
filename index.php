@@ -48,8 +48,13 @@
       </div>
       <div class="cont white">
         <div class="subcont">
+        <h1>The Polywell</h1>
+        <img src="images/polywell-diagram.png" alt="Polywell" class="polywell_img">
         <p>
-          aids
+          We've begun working on a reactor heavily based off of the Polywell design, a reactor based upon electromagnetism and electron wells. Currently, we're in the final planning stages of the project; building will begin soon on the second amatuer Polywell Nucelar Reactor in existance. <br>
+        </p>
+        <p>
+          We're very excited for that prospect, however you could also have some involvement as well.
         </p>
       </div>
       </div>
