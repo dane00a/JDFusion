@@ -40,10 +40,6 @@
   display:block;
   margin:2% 5%;
 }
-.cont > div{
-/*  max-width:33%; */
-  display:inline-block;
-}
 .intro_vid{
   height:100%;
 }

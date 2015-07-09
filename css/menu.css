@@ -14,11 +14,12 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td{
   padding:30px 0px 10px 0px;
   background-color: #222;
   width:100%;
+  min-height:80px;
 }
 .menubottom{
   background-color:#532971;
 }
-.navbar{
+/*.navbar{
   border-collapse:collapse;
   width:100%;
   max-width:1400px;
@@ -38,6 +39,36 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td{
 .navbar td:hover{
   border-left:5px #FFF solid;
 
+}*/
+
+.navbar2{
+  display: flex;
+  flex-flow:row nowrap;
+  width:80%;
+  justify-content: space-around;
+  margin:0px auto;
+}
+.navbar2 h2{
+  color:#EEE;
+  text-align:center;
+}
+@media all and (max-width:1000px){
+  .navbar2{
+    width:100%;
+  }
+}
+@media all and (max-width:600px){
+  .navbar2{
+    flex-direction: column;
+  }
+}
+.item{
+  flex: 1;
+  margin:10px auto;
+  width:20%;
+}
+.item:hover h2{
+  color:#FFF;
 }
 .menuwrapper p,.menuwrapper h1,.menuwrapper td, .footer p{
 

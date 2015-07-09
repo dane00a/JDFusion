@@ -40,7 +40,7 @@
         </div>
         <div class="vidcont">
           <video class="intro_vid" controls >
-            <source src="videos/vid1.mp4" type="video/mp4">
+            <source src="videos/vid1.mp4" type="video/mp4"></source>
               Your browser does not support video; please upgrade it.
           </video>
         </div>
@@ -61,5 +61,6 @@
       </div>
       </div>
     </div>
+  </div>
   </body>
 </html>
