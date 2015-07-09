@@ -56,9 +56,6 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr{
   .navbar2{
     width:100%;
   }
-  .item{
-    border:0;
-  }
 }
 @media all and (max-width:600px){
   .navbar2{
@@ -66,13 +63,18 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr{
   }
   .item{
     border-top:1px solid #222;
+    width:80% !important;
+    margin:0px auto !important;
+    padding:12px !important;
+  }
+  .item:first-child{
+    border:0;
   }
 }
 .item{
   flex: 1;
   margin:12px auto;
   width:20%;
-  border:0;
 }
 .item:hover h3{
   color:#FFF;
