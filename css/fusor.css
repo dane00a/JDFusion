@@ -1,0 +1,15 @@
+.fusor_cont{
+  width:80%;
+  margin:2% auto;
+}
+.fusor_cont p{
+  margin:2% 5%;
+}
+.fusor_cont h1{
+  text-align: center;
+}
+@media all and (max-width:1000px){
+  .fusor_cont{
+    width:100% !important;
+  }
+}

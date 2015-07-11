@@ -82,7 +82,7 @@
                 And if you find this new revolution in science fascinating, feel free to browse the site and learn. Spread the word. Donate to our Kickstarter, if you feel compelled.
               </p>
               <p>
-                And finally, thanks for reading. Giving your time is one of the most improtant assets you just gave. Thank you.
+                And finally, thanks for reading. Giving your time is one of the most improtant assets a person could give us. Thank you.
               </p>
           </div>
       </div>
