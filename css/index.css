@@ -18,10 +18,13 @@
 .white{
   background-color: #FFF;
 }
-.purp h1,.purp h2,.purp h3,.purp h4,.purp h5,.purp h6,.purp p,.purp a,.purp span,.black h1,.black h2,.black h3,.black h4,.black h5,.black h6,.black p,.black a,.black span{
+.purp h1,.purp h2,.purp h3,.purp h4,.purp h5,.purp h6,.purp p,.purp a,.purp span,.black h1{
   color:#FFF;
   display:inline-block;
   width:100%;
+}
+.black p{
+  color:#FFF;
 }
 .cont h1{
   text-align:center;
@@ -34,6 +37,18 @@
   max-width:66%;
   height:70%;
 }*/
+@media all and (max-width:600px){
+  .vidcont{
+    margin-right:2% !important;
+  }
+  .cont{
+    min-height:550px !important;
+  }
+  .polywell_img{
+    margin-right: 2% !important;
+    padding-bottom:0px !important;
+  }
+}
 .cont p{
   text-align:left;
   margin-left:5%;
@@ -56,4 +71,12 @@
 }
 .cont:nth-child(2){
   padding-bottom:5%;
+}
+.polywell_img{
+  width:40%;
+  float:left;
+  margin-left:2%;
+  margin-right:10%;
+  background-color: transparent;
+  padding-bottom:20px;
 }
