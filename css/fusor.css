@@ -12,4 +12,35 @@
   .fusor_cont{
     width:100% !important;
   }
+  .img_div img{
+    width:100% !important;
+  }
+}
+@media all and (max-width:600px){
+  .imgcontfusor{
+    width:100% !important;
+  }
+}
+.imgcontfusor{
+  width:55%;
+  margin:0px;
+  padding:0px;
+  float:right;
+
+}
+.fusor_cont .img_div{
+  display: inline-block;
+  width:40%;
+  margin:1% 2%;
+  position:relative;
+  max-height:60%;
+}
+.fusor_cont .img_div p{
+  text-align: center;
+}
+.fusor_cont .img_div img{
+  width:80%;
+  display:block;
+  margin:0 auto;
+  max-height: 60%;
 }
