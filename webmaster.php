@@ -5,7 +5,7 @@
   </head>
   <body>
     <?php include("menu.html");
-    echo "The date is: ".date("Y-m-d H:i:s")."<br>";
+  //  echo "The date is: ".date("Y-m-d H:i:s")."<br>";
     //CHECK FOR A POST REQ, THEN BEGIN PROCESSING
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
             //SQL CREDS 'N SHIT
@@ -18,7 +18,7 @@
         die("Connection failed: ". $conn->connect_error);
       }
       else{
-        echo "Connected Successfully to ".$db;
+        echo "Connected Successfully to ", $db;
       }
       //END OF SQL CONNECTION; IF SUCCESSFUL, PROCESSING BEGINS HERE
       $date = date("Y-m-d H:i:s");
@@ -36,6 +36,7 @@
       echo " ".$title;
       echo " ".$body;
       //add a check for images for image support, maybe? is better solution? EDIT: NAH
+      //this variable is the query to insert things into the table
       $sql = "INSERT INTO writeups (title,body,dateandtime) VALUES (\"$title\", \"$body\",\"$date\");";
       //check to see if insertion went through
     /*  if ($conn->query($sql) === TRUE){
@@ -44,7 +45,6 @@
       else{
         echo "GODDAMNIT SOMETHING WENT REALLY FUCKING WRONG. ERROR: ". $sql . "<br>" . $conn->error;
       }*/
-      //echo $conn->query("SELECT * FROM writeups WHERE id='1';");
       echo "<br><br>";
       /*this block is the first test of retrieval and reference code; it works
       if($result = $conn->query("SELECT * FROM writeups")){
@@ -59,13 +59,30 @@
           die($conn->error);
         }
       }*/
-      $inc = 1;
-      //this variable must increment when looping through the db for various items
-      if ($result = $conn->query("SELECT * FROM writeups LIMIT ".$inc.", 1;")){
-        if ($count = $result->num_rows){
-          echo "The row count for this query is ",$count;
-          while($row = $result->fetch_object()){
-          echo $row->title,"<br>", $row->body;
+      //this next block determines the number of rows in the writeups table by
+      $rowcountsql= "SELECT id FROM writeups ORDER BY id;";
+      if ($result=$conn->query($rowcountsql))
+        {
+        // Return the number of rows in result set
+        $rowcount=mysqli_num_rows($result);
+        printf("Result set has %d rows.\n",$rowcount);
+        // Free result set
+        mysqli_free_result($result);
+        }
+
+      //this variable must increment when looping through the db for various items. yeah
+      for ($sqlindex = 0; $sqlindex <= $rowcount; $sqlindex++){
+        if ($result = $conn->query("SELECT * FROM writeups LIMIT ".$sqlindex.", 1;")){
+          if ($count = $result->num_rows){
+          //  echo "The row count for this query is ",$count,"<br>";
+            while($row = $result->fetch_object()){
+            $titlecontent =  $row->title;
+            $writeupcontent = $row->body;
+            $rowdateandtime = $row->dateandtime;
+            echo "titlecontent is ", $titlecontent,"<br>";
+            echo "writeupcontent is ", $writeupcontent,"<br>";
+            echo "date and time is ", $rowdateandtime, " <br>";
+            }
           }
         }
       }
