@@ -28,6 +28,7 @@
         htmlspecialchars($data);
         return $data;
       }
+      //fixed input
       $title = $body = "";
       $title = fixinput($_POST["title"]);
       $body = fixinput($_POST["body"]);
@@ -97,7 +98,7 @@
       </p>
       <input class="title" name="title">
       <p>
-        Next, put in the Write-Up Itself
+        Next, put in the Write-Up Itself. There cannot be "" or '' in the writing.
       </p>
       <textarea name="body" class="writeup"></textarea>
       <p>

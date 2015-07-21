@@ -1,0 +1,7 @@
+form{
+  width:80%;
+  margin:0 auto;
+}
+form p,form h1, form textarea, form input, form button{
+  margin:1% auto;
+}
