@@ -1,5 +1,6 @@
 body{
   margin:0;
+  /*background-image:url(../images/background1.png);*/
 }
 p, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr{
   font-family: Segoe UI, Verdana, sans-serif;
@@ -19,28 +20,6 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr{
 .menubottom{
   background-color:#532971;
 }
-/*.navbar{
-  border-collapse:collapse;
-  width:100%;
-  max-width:1400px;
-  margin:0px auto;
-}
-.navbar tr{
-  width:100%;
-
-}
-.navbar td{
-  width:20%;
-  padding:15px 0px;
-  margin:0px auto;
-  border-collapse:collapse;
-  transition:0.1s ease-in;
-}
-.navbar td:hover{
-  border-left:5px #FFF solid;
-
-}*/
-
 .navbar2{
   display: flex;
   flex-flow:row nowrap;

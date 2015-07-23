@@ -11,9 +11,6 @@
   padding:2%;
   border-bottom: 1px solid #000;
 }
-.article:last-child{
-  border-bottom:0;
-}
 .wrapper > p, .wrapper > h1{
   text-align:center;
   margin:1% auto;
