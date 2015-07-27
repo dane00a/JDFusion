@@ -35,10 +35,12 @@
   <body>
     <?php include("menu.html");?>
     <div class="wrapper">
-      <h1>Polywell Writeups</h1>
-      <p>
-        This is a blog of our progress on the Polywell Reactor.
-      </p>
+      <div class="article first">
+        <h1>Polywell Writeups</h1>
+        <p>
+          This is a blog of our progress on the Polywell Reactor.
+        </p>
+      </div>
     <?php
     $servername = "localhost";
     $username = "root";

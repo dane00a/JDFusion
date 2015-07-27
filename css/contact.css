@@ -1,0 +1,45 @@
+.form_field_nta, .form_field_textarea, label{
+  display:block;
+  margin:2% auto;
+  padding:1%;
+  width:60%;
+  border:0;
+  outline:0;
+}
+label{
+  text-align: center;
+  font-size:1.5em;
+}
+.form_field_nta, .form_field_textarea{
+  background-color:#CCD;
+  font-size:1.3em;
+  transition: 0.3s ease-in;
+}
+.form_field_nta:hover, .form_field_nta:focus, .form_field_textarea:hover, .form_field_textarea:focus{
+  background-color:rgba(195, 195, 210, 0.7);
+  outline:1px #CCC solid;
+}
+@media all and (max-width:1000px){
+  .form_field_nta, .form_field_textarea{
+    width:80%;
+  }
+}
+textarea{
+  min-height:250px;
+}
+.submit_button{
+  padding:2%;
+  margin:0px auto 2% auto;
+  width:40%;
+  background-color:#99A;
+  border: 0;
+  outline: 0;
+  transition:0.2s;
+  display: block;
+  font-size:2em;
+  font-weight:100;
+}
+.submit_button:hover{
+    background-color: rgba(195, 195, 210, 0.7);
+    outline:2px #CCC solid;
+}

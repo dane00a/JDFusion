@@ -27,9 +27,17 @@
           $body = $row->body;
           $dateandtime = $row->dateandtime;
 echo <<<HERE
-  $title
-  $body
-  $dateandtime
+  <div class="wrapper">
+    <div class="titleinfo">
+      <h1 class="title">$title</h1>
+      <p class="dateandtime">
+      $dateandtime
+      </p>
+      <p class="body">
+      $body
+      </p>
+    </div>
+  </div>
 HERE;
         }
       }

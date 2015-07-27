@@ -3,13 +3,16 @@
   height:100%;
   margin:0;
   padding:0;
+  /*background: #EFF;*/
 }
 .article{
   width:80%;
   margin:0 auto;
-  background-color:#EEE;
+  /*background-color:rgba(225,255,255,0.7);*/
+  background-color: rgba(238,238,238,0.7);
   padding:2%;
   border-bottom: 1px solid #000;
+  box-shadow: #666 0px 1px 2px 1px;
 }
 .wrapper > p, .wrapper > h1{
   text-align:center;
@@ -23,4 +26,8 @@
 .spacer{
   min-height:2em;
   width:100%;
+}
+.first{
+  text-align:center;
+  margin:2% auto;
 }
