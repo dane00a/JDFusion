@@ -52,7 +52,7 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr{
 }
 .item{
   flex: 1;
-  margin:12px auto;
+  margin:0 auto;
   width:20%;
 }
 .item:hover h3{
@@ -66,8 +66,12 @@ p, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr{
 .footer{
   position:fixed;
   bottom:0;
+  margin:0 !important;
   background-color:#222;
   width:100%;
   padding: 5px 0px;
   z-index: 2;
+}
+.footer p{
+  margin:0 !important;
 }
