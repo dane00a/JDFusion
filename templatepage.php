@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href ="css/fullarticle.css" type="text/css" rel="text/css">
+    <link href="css/fullarticle.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <?php
       include("menu.html");
       $id = $_GET['id'];
-      echo $id;
+      //echo $id;
       $servername = "localhost";
       $username = "root";
       $password = "";
@@ -26,6 +26,7 @@
           $title = $row->title;
           $body = $row->body;
           $dateandtime = $row->dateandtime;
+          $body = nl2br($body);
 echo <<<HERE
   <div class="wrapper">
     <div class="titleinfo">
@@ -37,6 +38,9 @@ echo <<<HERE
       $body
       </p>
     </div>
+  </div>
+  <div class="spacer">
+  
   </div>
 HERE;
         }

@@ -1,0 +1,11 @@
+.body, .dateandtime, .title{
+  width:80%;
+  margin:10px auto;
+}
+.body{
+  text-indent: 1em;
+}
+.spacer{
+  height:50px;
+  width:100%;
+}
