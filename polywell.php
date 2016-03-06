@@ -45,7 +45,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $db = "writeup";
+    $db = "writeups";
     $conn = new mysqli($servername, $username, $password, $db);
     //check Connection
     if ($conn->connect_error){
@@ -66,7 +66,7 @@
         if ($count = $result->num_rows){
         //  echo "The row count for this query is ",$count,"<br>";
           while($row = $result->fetch_object()){
-          $titlecontent =  $row->title;
+          $titlecontenSSt =  $row->title;
           $writeupcontent = $row->body;
           $rowdateandtime = $row->dateandtime;
           $article_number = $sqlindex + 1;
@@ -74,14 +74,14 @@
           <div class="article">
             <div class="titleanddate">
               <h2>$titlecontent</h2>
-              <h3 class="dtartnum">Written $rowdateandtime, Article Number $article_number</h3>
+              <h3 class="dtartnum">Written $rowdateandtime</h3>
             </div>
-            <div class="truncate">
+  <!--      <div class="truncate">
               <p class="writeup">
-                $writeupcontent
+                <iframe src="$writeupcontent"></iframe>
               </p>
               <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read More...</a>
-            </div>
+            </div> -->
           </div>
 ARTICLE;
           }
@@ -89,8 +89,8 @@ ARTICLE;
       }
     }
     ?>
-    <div class="spacer">
 
+    <div class="spacer">
     </div>
   </div>
   </body>
