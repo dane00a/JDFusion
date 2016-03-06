@@ -11,7 +11,7 @@
       $servername = "localhost";
       $username = "root";
       $password = "";
-      $db = "writeup";
+      $db = "writeups";
       $conn = new mysqli($servername, $username, $password, $db);
       //check Connection
       if ($conn->connect_error){
@@ -35,12 +35,12 @@ echo <<<HERE
       $dateandtime
       </p>
       <p class="body">
-      $body
+        <iframe class="article_doc" src="$body"></iframe>
       </p>
     </div>
   </div>
   <div class="spacer">
-  
+
   </div>
 HERE;
         }

@@ -25,9 +25,9 @@
           }
       }*/
       function assignCookie(ele)      {
-      window.alert("Caller is " +arguments.callee.caller.toString());
+      //window.alert("Caller is " +arguments.callee.caller.toString());
         var id = ele.id;
-        window.alert('area element id = ' + id);
+      //  window.alert('area element id = ' + id);
         window.location.href="templatepage.php?id="+id+"";
       }
       </script>
@@ -66,7 +66,7 @@
         if ($count = $result->num_rows){
         //  echo "The row count for this query is ",$count,"<br>";
           while($row = $result->fetch_object()){
-          $titlecontenSSt =  $row->title;
+          $titlecontent =  $row->title;
           $writeupcontent = $row->body;
           $rowdateandtime = $row->dateandtime;
           $article_number = $sqlindex + 1;
@@ -76,12 +76,12 @@
               <h2>$titlecontent</h2>
               <h3 class="dtartnum">Written $rowdateandtime</h3>
             </div>
-  <!--      <div class="truncate">
+            <div class="truncate">
               <p class="writeup">
-                <iframe src="$writeupcontent"></iframe>
+              <!--  <iframe src="$writeupcontent"></iframe>-->
               </p>
-              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read More...</a>
-            </div> -->
+              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read</a>
+            </div>
           </div>
 ARTICLE;
           }
