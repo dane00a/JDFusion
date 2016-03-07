@@ -16,7 +16,7 @@
             Welcome to the future of Nuclear Fusion.
           </p>
           <p>
-            We're two "Fusioneers", as the term was dubbed; pioneering science students on a mission to create more than a few Facebook posts and earn a few trophies throughout High School. So we pursue Nuclear Fusion, and our demo reactor worked.
+            We're two "Fusioneers", as the term was dubbed; pioneering science students on a mission to create something unique. So we pursue Nuclear Fusion, and are at the forefront of the next generation of DIY nuclear fusion.
           </p>
           <p>
             We want to do a lot more than just that. This site is made to chronicle those endeavours.
