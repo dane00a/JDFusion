@@ -1,17 +1,26 @@
 .body, .dateandtime, .title{
-  width:80%;
-  margin:10px auto;
+  margin:15px auto;
+  text-align: center;
 }
-.body{
+.body_text{
   text-indent: 1em;
 }
-.spacer{
-  height:50px;
-  width:100%;
+.title{
+  font-size:4em !important;
 }
 .article_doc{
   width:800px;
   height:100%;
   outline:0;
   border:0;
+  margin:100px auto;
+  display:block;
+  /*height:9999px;*/
+  height: 600px;
 }
+.wrapper{
+  overflow-y:hidden;
+}
+/*.not_html_body{
+  height:9000px;
+}*/

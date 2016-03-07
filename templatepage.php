@@ -3,7 +3,7 @@
   <head>
     <link href="css/fullarticle.css" type="text/css" rel="stylesheet">
   </head>
-  <body>
+  <body class="not_html_body">
     <?php
       include("menu.html");
       $id = $_GET['id'];
@@ -32,16 +32,15 @@ echo <<<HERE
     <div class="titleinfo">
       <h1 class="title">$title</h1>
       <p class="dateandtime">
-      $dateandtime
+      Posted $dateandtime
       </p>
-      <p class="body">
+      <p class="body_text">
         <iframe class="article_doc" src="$body"></iframe>
       </p>
     </div>
   </div>
-  <div class="spacer">
+  <!-- <script src="js/clone_paper.js"></script> -->
 
-  </div>
 HERE;
         }
       }

@@ -88,3 +88,7 @@ p, pre, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr, input, button, label
 wrapper{
   margin-bottom: 20px !important;
 }
+.spacer{
+  height:50px;
+  width:100%;
+}

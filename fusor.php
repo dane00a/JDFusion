@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htm>
+<html>
   <head>
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/fusor.css">
@@ -84,6 +84,9 @@
       <p>
         YOU SHULD POOT WORDZ HEARE!
       </p>
+      <div class="spacer">
+        
+      </div>
     </div>
   </body>
-</htm>
+</html>
