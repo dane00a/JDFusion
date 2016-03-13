@@ -81,7 +81,7 @@
               <p class="writeup">
               <!--  <iframe src="$writeupcontent"></iframe>-->
               </p>
-              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie($id)" >Read</a>
+              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="window.location.href = 'templatepage.php?id=$id'" >Read</a>
               <!--<a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read</a>-->
             </div>
           </div>
