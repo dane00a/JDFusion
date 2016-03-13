@@ -1,20 +1,20 @@
 .form_field_nta, .form_field_textarea, label{
-  display:inline-block;
-  margin:2% auto;
-  padding:1%;
+  margin:1% auto;
+  padding:5px;
   width:60%;
   border:0;
   outline:0;
+  display:block;
 }
 label{
-  text-align: left;
+  text-align: center;
   font-size:1.5em;
-  width:20%;
+  width:100%;
 }
 .form_field_nta, .form_field_textarea{
   background-color:#CCD;
   font-size:1.3em;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 .form_field_nta:hover, .form_field_nta:focus, .form_field_textarea:hover, .form_field_textarea:focus{
   background-color:rgba(195, 195, 210, 0.7);
@@ -23,12 +23,6 @@ label{
 @media all and (max-width:1000px){
   .form_field_nta, .form_field_textarea{
     width:80%;
-    display:block;
-  }
-  label{
-    display:block;
-    width:auto;
-    text-align: center;
   }
 }
 textarea{
@@ -36,10 +30,10 @@ textarea{
   vertical-align: top;
 }
 .submit_button{
-  padding:1%;
+  padding:10px;
   margin:0px auto 2% auto;
   width:20%;
-  background-color:#99A;
+  background-color:#CCD;
   border: 0;
   outline: 0;
   transition:0.2s;

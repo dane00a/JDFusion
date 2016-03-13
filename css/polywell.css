@@ -6,7 +6,8 @@
   /*background: #EFF;*/
 }
 .article{
-  width:80%;
+  width:60%;
+  max-width:1000px;
   margin:0 auto;
   /*background-color:rgba(225,255,255,0.7);*/
   background-color: rgba(238,238,238,0.7);

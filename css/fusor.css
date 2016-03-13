@@ -44,3 +44,11 @@
   margin:0 auto;
   max-height: 60%;
 }
+.heightmod img{
+  max-height:300px !important;
+  width:auto !important;
+}
+.vidcont{
+  float:right;
+  margin: 0 10% 10% 0;
+}

@@ -7,7 +7,8 @@
     <?php
       include("menu.html");
       ?>
-    <h2>About Us</h2>
+    <h1 class="pagetitle_h1">About Us</h1>
+    <image class="bioimage" src="images/bioimage.png" alt="Dane And Jeremy"></image>
       <p>
         Our names are Dane Andrews and Jeremy Adams. We're a couple of burgeoning high school students trying to push the limits of DIY nuclear fusion.
       </p>
@@ -16,9 +17,6 @@
       </p>
       <p>
         In Jeremy's spare time, he is a prolific runner, a drummer, and also enjoys getting plenty of sleep.
-      </p>
-      <p>
-        Note From Dane: I'll put more here, but writing a bio is somewhat time consuming.
       </p>
   </body>
 </html>

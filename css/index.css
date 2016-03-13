@@ -21,7 +21,7 @@
 .purp h1,.purp h2,.purp h3,.purp h4,.purp h5,.purp h6,.purp p,.purp a,.purp span,.black h1{
   color:#FFF;
   display:inline-block;
-  width:100%;
+  width:90%;
 }
 .black p{
   color:#FFF;
@@ -37,16 +37,27 @@
   max-width:66%;
   height:70%;
 }*/
-@media all and (max-width:600px){
+@media screen and (max-width:600px){
   .vidcont{
-    margin-right:2% !important;
+    margin-left:1% !important;
   }
   .cont{
-    min-height:550px !important;
+    min-height:600px !important;
   }
   .polywell_img{
     margin-right: 2% !important;
     padding-bottom:0px !important;
+  }
+  .began_cont{
+    width:50% !important;
+  }
+  .polywell_img{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width:900px){
+  .cont:nth-child(4){
+    padding-bottom:30% !important;
   }
 }
 .cont p{
@@ -66,17 +77,22 @@
   float:right;
 }
 .cont2txt{
-  float: left;
+  float: left;;
   width:50%;
 }
-.cont:nth-child(2){
+.cont:nth-child(4){
   padding-bottom:5%;
 }
 .polywell_img{
-  width:40%;
+  width:35%;
   float:left;
-  margin-left:2%;
-  margin-right:10%;
+  margin-right:5%;
+  margin-left:5%;
   background-color: transparent;
   padding-bottom:20px;
+}
+.began_cont{
+  width:60%;
+  margin-right: 0;
+  float:left;
 }

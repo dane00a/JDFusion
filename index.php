@@ -13,13 +13,7 @@
           <h1>Welcome</h1>
         <div>
           <p>
-            Welcome to the future of Nuclear Fusion.
-          </p>
-          <p>
-            We're two "Fusioneers", as the term was dubbed; pioneering science students on a mission to create something unique. So we pursue Nuclear Fusion, and are at the forefront of the next generation of DIY nuclear fusion.
-          </p>
-          <p>
-            We want to do a lot more than just that. This site is made to chronicle those endeavours.
+          We are two high school students, Jeremy Adams and Dane Andrews, pioneering the development of a novel thermonuclear fusion concept known as the Polywell. We are challenging the limits of DIY science and open sourcing information on our reactor to advance this frontier. This site is made to chronicle our endeavors in the building, research, and experimental trials of our fusion reactor.
           </p>
         </div>
       </div>
@@ -27,63 +21,44 @@
       </div>
       <div class="cont purp">
         <div class="subcont">
-        <h1>We Have Already Begun</h1>
-          <div class="cont2txt">
+        <h1>What Is Fusion?</h1>
+          <div>
             <p>
-              The Farnsworth-Hirsch Fusor was our initial speadhead into nuclear fusion by creating plasma, the step down from creating heavier elements. It was a rewarding if not occasionally hectic ride, and contributed immensely to the knowledge and experience needed to begin the Polywell projet.
+                Fusion is being engineered as a clean energy source. Several large-scale projects around the world are making an effort to improve fusion reactor efficiencies. We are building a polywell fusion reactor which uses magnetic fields to trap electrons and fuse deuterium ions. The polywell design has been significantly less explored in fusion sciences. Therefore, we hope to gather valid data from our reactor, helping advance this approach. We are not trying to single-handedly make fusion a compact clean energy source, as large-scale projects with billions of dollars in funding and professional scientists will certainly be more effective in doing so. Mainly, we aspire to push the limits of DIY science as high school students invested in a field few amateur engineers explore.
             </p>
-            <p>
-              Our Demo Model of the Farnsworth-Hirsch Fusor tested successfully, and created plasma using Ohm's Law and Inertial Electrostatic Confinement - More on that on the <a href="fusor.php"> Farnsworth-Hirsch Fusor Page</a>
-            </p>
-            <p>
-              See the media to the right of a test of our Fusor.
-            </p>
-            <p>
-              After some small refinements, we have now preserved this model and moved on to our next project: the Polywell.
-            </p>
-        </div>
-        <div class="vidcont">
-          <video class="intro_vid" controls >
-            <source src="videos/vid1.mp4" type="video/mp4"></source>
-              Your browser does not support video; please upgrade it.
-          </video>
-        </div>
+          </div>
         </div>
       </div>
       <div class="cont white">
         <div class="subcont">
         <h1>The Polywell</h1>
-        <img src="images/polywell-diagram.png" alt="Polywell" class="polywell_img">
-        <p>
-          We've begun working on a reactor heavily based off of the Polywell design, a reactor based upon electromagnetism and electron wells. Currently, we're in the final planning stages of the project; building will soon commence on the second amatuer Polywell Nucelar Reactor in existance. <br>
-        </p>
-        <p>
-          This project is even larger and more complicated of a milestone to conquer, and the clock is ticking. Nuclear fusion is at our fingertips, and we plan to make it a reality before high school ends.
-        </p>
-        <p>
-          We're very excited for that prospect, to say the least. Amazing things lay around the corner for this project.
-        </p>
+          <div class="cont2txt">
+            <p>
+                Fusion is being engineered as a clean energy source. Several large-scale projects around the world are making an effort to improve fusion reactor efficiencies. We are building a polywell fusion reactor which uses magnetic fields to trap electrons and fuse deuterium ions. The polywell design has been significantly less explored in fusion sciences. Therefore, we hope to gather valid data from our reactor, helping advance this approach. We are not trying to single-handedly make fusion a compact clean energy source, as large-scale projects with billions of dollars in funding and professional scientists will certainly be more effective in doing so. Mainly, we aspire to push the limits of DIY science as high school students invested in a field few amateur engineers explore.
+            </p>
+          </div>
+          <img src="images/polywell-diagram.jpg" alt="Polywell" class="polywell_img">
       </div>
       </div>
       <div class="cont black">
         <div class="subcont">
-          <h1>Interesting...</h1>
-          <div>
+          <h1>How We Began</h1>
+          <div class="began_cont">
             <p>
-              That it is. This project is a pioneer in Do-It-Yourself Nuclear Fusion, and is a difficult and ambitious effort.
+              We started in the spring of our freshman year in high school, exposing ourselves to as much information we could grasp about the workings of nuclear fusion. We took to building a Farnsworth-Hirsch Fusor, a relatively simple and common approach to learning the basics of this captivating science. It was a rewarding and occasionally hectic ride, and contributed immensely to the knowledge and experience needed to begin a much more complex reactor that would take several more years of persistence and hard work – the Polywell.
             </p>
             <p>
-              However, no great effort can come into fruition without help. We've conversed with eneryone from graduate students to electricians, contractors to entreprenuers, and other men and women of various occupations.
+                Our Demo Model of the Farnsworth-Hirsch Fusor tested successfully, and created plasma using high voltage to ionize nitrogen with a partial vacuum. Fundamental concepts such as Paschen’s Curve and Inertial Electrostatic Confinement were demonstrated. More on this can be found on the Farnsworth-Hirsch Fusor Page.
             </p>
             <p>
-              But we're not finished. We need you, dear reader. You.
+                See the video to the right of a test of our Fusor.
             </p>
-              <p>
-                And if you find this new revolution in science fascinating, feel free to browse the site and learn. Spread the word. Donate to our Kickstarter, if you feel compelled.
-              </p>
-              <p>
-                And finally, thanks for reading. Giving your time is one of the most improtant assets a person could give us. Thank you.
-              </p>
+          </div>
+          <div class="vidcont">
+            <video class="intro_vid" controls >
+              <source src="videos/vid1.mp4" type="video/mp4"></source>
+                Your browser does not support video; please upgrade it.
+            </video>
           </div>
       </div>
     </div>

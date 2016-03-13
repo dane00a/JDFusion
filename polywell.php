@@ -74,7 +74,7 @@
           <div class="article">
             <div class="titleanddate">
               <h2>$titlecontent</h2>
-              <h3 class="dtartnum">Written $rowdateandtime</h3>
+              <h3 class="dtartnum">Posted $rowdateandtime</h3>
             </div>
             <div class="truncate">
               <p class="writeup">

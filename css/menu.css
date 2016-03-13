@@ -19,6 +19,9 @@ p, pre, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr, input, button, label
   box-shadow:#000 0 1px 2px 2px;
 }
 .menubottom{
+/*  background-image: url(/JDFusion/images/menu_bg.jpg);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;*/
   background-color:#532971;
   box-shadow:#421860 0 1px 2px 2px;
 }
@@ -71,11 +74,20 @@ p, pre, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr, input, button, label
   margin:0 !important;
   background-color:#222;
   width:100%;
-  padding: 5px 0px;
+  padding:2px 0;
   z-index: 2;
+  max-height:80px;
 }
 .footer p{
-  margin:0 !important;
+  margin:0 auto !important;
+  font-size:1em;
+}
+.footer p img{
+  height:30px;
+  margin:0 0 0 10px;
+  padding:0px;
+  border-radius:100%;
+  vertical-align: middle;
 }
 .link{
   display:inline-block;
@@ -91,4 +103,11 @@ wrapper{
 .spacer{
   height:50px;
   width:100%;
+}
+.subtitle{
+  color: #FFF;
+  text-align: center;
+}
+.pagetitle_h1{
+  text-align:center;
 }

@@ -23,7 +23,7 @@
             We eventually hit a bit of a lull in the working between early October and Thanksgiving, when work resumed with a clamor and a bang. As sort of a late Christmas present, we achieved our end result, Plasma, on January 2nd, 2015, after resolving one of the last circuitry issues.
           </p>
           <p>
-            That was a great day. Read on to find out more about specific aspects of the circuit.
+            That was a great day. Read on to find out more about specific aspects of the project.
           </p>
         </div>
       <hr>
@@ -80,12 +80,57 @@
           </p>
         </div>
       <hr>
-      <h1>The Chamber</h1>
-      <p>
-        YOU SHULD POOT WORDZ HEARE!
-      </p>
+        <div class="fusor_chamber">
+          <h1>The Chamber</h1>
+            <p>
+              For the chamber, we needed something durable and a material that could withstand going under a vacuum during the creation of the plasma. After searching around through a bunch of materials, we decided on using a borosilicate glass cylinder, primarily because it had the aforementioned features as well as having a very low coefficient for thermal expansion. This would allow it withstand significantly more amounts of heat than other competing materials without needing to expand.
+            </p>
+            <p>
+              Afterwords, we obtained and cut two aluminum plates to cover the exposed sides of the borosilicate cylinder. We drilled holes into the plates, and bound them together with large screws to help give a more substantial seal. We also drilled a hole in the bottom of the chamber to fit the ceramic rod and screw into the chamber that would later hold the electrode.
+            </p>
+            <p>
+              We had three electrodes: a primary one made of tungsten, and two secondary ones made of copper. The tungsten and one of the copper electrodes were made in a spherical shape, and the third electrode was crafted into a cubic shape.
+            </p>
+            <p>
+              Finally, a hole was drilled into one of the aluminum plates to fit the vacuum into the chamber.
+            </p>
+            <div class="img_div heightmod">
+              <image src="images/fusor_electrode.png" alt="Fusor Electrode"></image>
+              <p>
+                Fusor Electrodes During Construction
+              </p>
+            </div>
+            <div class="img_div heightmod">
+              <image src="images/fusor_aluminum.png" alt="Fusor Aluminum"></image>
+              <p>
+                Aluminum Plates In-Progress
+              </p>
+            </div>
+          </div>
+          <hr>
+          <div class="fusor_test">
+            <h1>Testing the Fusor</h1>
+            <p>
+              On January 2, 2015, we finally cleared up an issue with the circuit regarding grounding one of the terminals, and we were able get it to work under the tungsten electrode.
+            </p>
+            <p>
+              Afterwards, we tested out the copper electrodes (both of which were successful). Soon after, we archived the project and began work on the Polywell.
+            </p>
+            <div class="img_div">
+              <image src="images/fusor_test.png" alt="Fusor Test"></image>
+              <p>
+                Fusor With Tungsten Electrode
+              </p>
+            </div>
+            <div class="vidcont">
+              <video class="intro_vid" controls >
+                <source src="videos/vid1.mp4" type="video/mp4"></source>
+                  Your browser does not support video; please upgrade it.
+              </video>
+            </div>
+          </div>
       <div class="spacer">
-        
+
       </div>
     </div>
   </body>
