@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="css/polywell.css" type="text/css" rel="stylesheet">
-      <script>
+      <!--<script>
     /*  function assignCookie(){
         window.alert(i);
         //total nr in list
@@ -30,7 +30,7 @@
       //  window.alert('area element id = ' + id);
         window.location.href="templatepage.php?id="+id+"";
       }
-      </script>
+    </script>-->
   </head>
   <body>
     <?php include("menu.html");?>
@@ -70,6 +70,7 @@
           $writeupcontent = $row->body;
           $rowdateandtime = $row->dateandtime;
           $article_number = $sqlindex + 1;
+          $id = $row->id;
           echo $str=<<<ARTICLE
           <div class="article">
             <div class="titleanddate">
@@ -80,7 +81,8 @@
               <p class="writeup">
               <!--  <iframe src="$writeupcontent"></iframe>-->
               </p>
-              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read</a>
+              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie($id)" >Read</a>
+              <!--<a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read</a>-->
             </div>
           </div>
 ARTICLE;
