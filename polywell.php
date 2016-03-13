@@ -2,35 +2,6 @@
 <html>
   <head>
     <link href="css/polywell.css" type="text/css" rel="stylesheet">
-      <!--<script>
-    /*  function assignCookie(){
-        window.alert(i);
-        //total nr in list
-       /*window.alert(document.getElementsByClassName("article").length);
-        //pos in list and definition of variable per button
-        var sqlindex = $sqlindex;
-        for (i=0; i<=sqlindex;i++){
-          var name = i;
-          this [name] = $sqlindex;
-          window.alert(name);//how do we get this to work?
-        }*/
-      /* This code will be developed later, I suppose... need to fix the above
-       window.alert(dtartnum);
-        var pattern = /Article Number \d{1,3}/;
-          if(pattern.test(document.getElementsByClassName(dtartnum).value)){
-            window.alert(pattern.test(document.getElementsByClassName(dtartnum).value));
-          }
-          else{
-            window.alert(getElementsByClassName(dtartnum).value);
-          }
-      }*/
-      function assignCookie(ele)      {
-      //window.alert("Caller is " +arguments.callee.caller.toString());
-        var id = ele.id;
-      //  window.alert('area element id = ' + id);
-        window.location.href="templatepage.php?id="+id+"";
-      }
-    </script>-->
   </head>
   <body>
     <?php include("menu.html");?>
@@ -79,10 +50,8 @@
             </div>
             <div class="truncate">
               <p class="writeup">
-              <!--  <iframe src="$writeupcontent"></iframe>-->
               </p>
               <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="window.location.href = 'templatepage.php?id=$id'" >Read</a>
-              <!--<a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="assignCookie(this)" >Read</a>-->
             </div>
           </div>
 ARTICLE;

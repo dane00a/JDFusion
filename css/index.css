@@ -73,6 +73,7 @@
   margin-right:10%;
   display:block;
   height:350px;
+  max-width:30%;
   position: relative;
   float:right;
 }
