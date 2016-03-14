@@ -16,7 +16,7 @@
         In Dane's spare time, he plays the piano and saxophone, codes websites, and actively participates in Model UN.
       </p>
       <p>
-        Jeremy is a competitive runner on the cross country and tack team and also plays the drums with a couple different bands outside of school.
+        Jeremy is a competitive runner on the cross country and track team and also plays the drums with a couple different bands outside of school.
       </p>
       <p>
           We both attend Jones College Prep in downtown Chicago and are currently in our Junior year of high school.
