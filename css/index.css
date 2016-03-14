@@ -97,3 +97,11 @@
   margin-right: 0;
   float:left;
 }
+.index_polywell_chamber{
+  height:180px;
+  display:inline-block;
+}
+.welcome_image_cont{
+  width:50%;
+  margin:0 auto;
+}

@@ -15,6 +15,11 @@
           <p>
           We are two high school students, Jeremy Adams and Dane Andrews, pioneering the development of a novel thermonuclear fusion concept known as the Polywell. We are challenging the limits of DIY science and open sourcing information on our reactor to advance this frontier. This site is made to chronicle our endeavors in the building, research, and experimental trials of our fusion reactor.
           </p>
+          <div class="welcome_image_cont">
+            <image class="index_polywell_chamber" src="images/plastic_polywell.png" alt="Plastic Prototype of Polywell"></image>
+            <image class="index_polywell_chamber" src="images/polywell_in_chamber.jpg" alt="Fitting the Polywell In The Chamber"></image>
+            <image class="index_polywell_chamber" src="images/fusor_test_electrode.png" alt="Fusor Electrode Test"></image>
+          </div> 
         </div>
       </div>
       <!--    <img src="images/nuclear-fusion.jpg" alt="Nuclear_fusion_intro"/> -->

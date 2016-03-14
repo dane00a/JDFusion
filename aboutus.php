@@ -13,10 +13,13 @@
         Our names are Dane Andrews and Jeremy Adams. We're a couple of burgeoning high school students trying to push the limits of DIY nuclear fusion.
       </p>
       <p>
-        In Dane's spare time, he plays the piano and saxophone, codes websites, makes resolutions in Model UN, and tries to get some sleep.
+        In Dane's spare time, he plays the piano and saxophone, codes websites, and actively participates in Model UN.
       </p>
       <p>
-        In Jeremy's spare time, he is a prolific runner, a drummer, and also enjoys getting plenty of sleep.
+        Jeremy is a competitive runner on the cross country and tack team and also plays the drums with a couple different bands outside of school.
+      </p>
+      <p>
+          We both attend Jones College Prep in downtown Chicago and are currently in our Junior year of high school.
       </p>
   </body>
 </html>
