@@ -8,7 +8,7 @@
 .fusor_cont h1{
   text-align: center;
 }
-@media all and (max-width:1000px){
+@media screen and (max-width:1000px){
   .fusor_cont{
     width:100% !important;
   }
@@ -16,7 +16,7 @@
     width:100% !important;
   }
 }
-@media all and (max-width:600px){
+@media screen and (max-width:600px){
   .imgcontfusor{
     width:100% !important;
   }

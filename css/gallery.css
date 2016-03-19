@@ -1,0 +1,29 @@
+.heading{
+  text-align:center;
+}
+.subtitle_gallery{
+  display:block;
+  width:100%;
+  text-align: center;
+}
+.image_cont{
+  display:flex;
+  flex-direction:row;
+  flex-flow:wrap;
+  justify-content: space-around;
+  align-items: center;
+  width:80%;
+  margin:20px auto;
+  outline: 2px #EEE solid;
+}
+.image_cont div{
+  height:300px;
+}
+.image_cont div img{
+  max-height:200px;
+  margin:0 auto;
+  display:block;
+}
+.image_cont div p{
+  text-align: center;
+}

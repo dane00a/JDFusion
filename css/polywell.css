@@ -32,3 +32,8 @@
   text-align:center;
   margin:2% auto;
 }
+.read{
+  font-weight:normal;
+  font-size:1.2em;
+  cursor: pointer;
+}

@@ -20,7 +20,7 @@ label{
   background-color:rgba(195, 195, 210, 0.7);
   outline:1px #CCC solid;
 }
-@media all and (max-width:1000px){
+@media screen and (max-width:1000px){
   .form_field_nta, .form_field_textarea{
     width:80%;
   }

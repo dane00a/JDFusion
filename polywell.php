@@ -51,7 +51,7 @@
             <div class="truncate">
               <p class="writeup">
               </p>
-              <a style="font-weight:normal; font-size:1.2em;" id="$article_number" onClick="window.location.href = 'templatepage.php?id=$id'" >Read</a>
+              <a class="read" id="$article_number" onClick="window.location.href = 'templatepage.php?id=$id'" >Read</a>
             </div>
           </div>
 ARTICLE;

@@ -1,7 +1,7 @@
 .cont{
   min-height: 400px;
   width:100%;
-  font-family:Segoe UI, Verdana, serif;
+  font-family:Lucidia Consol, Conslas, Georgia, Gadugi, Sylfaen, Segoe UI, Verdana, serif;
 }
 .subcont{
   width:100%;
@@ -100,8 +100,9 @@
 .index_polywell_chamber{
   height:180px;
   display:inline-block;
+  margin:0 3%;
 }
 .welcome_image_cont{
-  width:50%;
+  width:60%;
   margin:0 auto;
 }
