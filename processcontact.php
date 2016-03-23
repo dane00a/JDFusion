@@ -14,5 +14,6 @@ echo $message = <<<MSG
   MESSAGE: $inquiry
 MSG;
   mail("dane.andrews99@gmail.com", $subject, $message);
-
+  mail("jeremyad55@gmail.com", $subject, $message);
+  echo '<script>window.location = "contact_thanks.php"</script>';
  ?>
