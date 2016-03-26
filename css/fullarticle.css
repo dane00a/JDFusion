@@ -8,15 +8,15 @@
 .title{
   font-size:4em !important;
 }
-.article_doc{
-  width:800px;
-  height:100%;
+#article_doc{
+  width:100%;
   outline:0;
   border:0;
-  margin:100px auto;
+  margin:0 auto;
   display:block;
   /*height:9999px;*/
   height: 600px;
+  overflow:hidden !important;
 }
 .wrapper{
   overflow-y:hidden;

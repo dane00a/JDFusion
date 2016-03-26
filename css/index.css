@@ -100,9 +100,12 @@
 .index_polywell_chamber{
   height:180px;
   display:inline-block;
-  margin:0 3%;
+  margin:10px 3%;
 }
 .welcome_image_cont{
-  width:60%;
   margin:0 auto;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap:wrap;
 }
