@@ -2,7 +2,6 @@
 <html>
   <head>
     <link href="css/fullarticle.css" type="text/css" rel="stylesheet">
-    <script src="js/jquery-2.2.2.min.js"></script>
   </head>
   <body class="not_html_body">
     <?php
@@ -35,21 +34,13 @@ echo <<<HERE
       <p class="dateandtime">
       Posted $dateandtime
       </p>
-        <iframe id="article_doc" src="$body">
+      <p class="body_text">
+        <iframe class="article_doc" src="$body"></iframe>
+      </p>
     </div>
   </div>
-  <!-- <script src="js/clone_paper.js"></script>
-  <script>
-  var interval = $(function(){
-    alert('content 1: ' + $('#article_doc').hasScrollBar());
-  });
+  <!-- <script src="js/clone_paper.js"></script> -->
 
-  (function($) {
-    $.fn.hasScrollBar = function() {
-        return this.get(0).scrollHeight > this.height();
-    }
-  })(jQuery);
-  </script>-->
 HERE;
         }
       }
