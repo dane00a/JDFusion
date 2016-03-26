@@ -14,8 +14,8 @@
       </div>
     <?php
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "dane00a";
+    $password = "andrewsD22799!";
     $db = "writeups";
     $conn = new mysqli($servername, $username, $password, $db);
     //check Connection

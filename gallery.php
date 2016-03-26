@@ -101,11 +101,65 @@
         </div>
       </div>
       <div class="image_cont">
-        <h2 class="subtitle">Fusor</h2>
+        <h2 class="subtitle_gallery">Worksite/Equipment</h2>
         <div class="flex_images">
-          <image src="images/3d_model_cad.png" alt="CAD 3D Polywell Model"></image>
+          <image src="images/stainless_steel_polywell_2.jpg" alt="CAD 3D Polywell Model"></image>
           <p>
-            3D Polywell Model
+            Stainless Steel Polywell
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/polywell_in_chamber.jpg" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Polywell Mounted in Chamber
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/919_hot_cathode.png" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Hot Cathode Controller
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/vac_chamber_welded.png" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Welded Vacuum Chamber
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/vac_control.jpg" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Vacuum Controller
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/variac_microwavetransformer.png" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Variable AC (Variac) Transformer and Microwave Transformer
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/pressure_guage.jpg" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Pressure Guage
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/oscilloscope.jpg" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Oscilloscope
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/worktable_1.jpg" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Work Table
+          </p>
+        </div>
+        <div class="flex_images">
+          <image src="images/deuterium.png" alt="CAD 3D Polywell Model"></image>
+          <p>
+            Deuterium
           </p>
         </div>
       </div>
