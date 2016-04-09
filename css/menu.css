@@ -7,6 +7,9 @@ p, pre, span, a, h1, h2, h3, h4, h5, h6, li, td, pre, abbr, input, button, label
   font-weight:lighter;
   margin:0 inherit;
 }
+p{
+  font-size:1em;
+}
 .menuwrapper{
   width:100%;
   background-color:red;
