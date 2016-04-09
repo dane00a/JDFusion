@@ -1,7 +1,15 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+}
 .cont{
   min-height: 400px;
   width:100%;
   font-family:Lucidia Consol, Conslas, Georgia, Gadugi, Sylfaen, Segoe UI, Verdana, serif;
+  flex-grow: 1;
 }
 .subcont{
   width:100%;

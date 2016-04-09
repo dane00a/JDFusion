@@ -29,7 +29,7 @@ p{
   background-size: 100% 50%;
   background-repeat: no-repeat;*/
   background-color:#532971;
-  box-shadow:#421860 0 1px 2px 2px;
+  /*box-shadow:#421860 0 1px 2px 2px;*/
 }
 .navbar2{
   display: flex;
