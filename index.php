@@ -19,7 +19,7 @@
             <image class="index_polywell_chamber" src="images/plastic_polywell.png" alt="Plastic Prototype of Polywell"></image>
             <image class="index_polywell_chamber" src="images/polywell_in_chamber.jpg" alt="Fitting the Polywell In The Chamber"></image>
             <image class="index_polywell_chamber" src="images/fusor_test_electrode.png" alt="Fusor Electrode Test"></image>
-          </div> 
+          </div>
         </div>
       </div>
       <!--    <img src="images/nuclear-fusion.jpg" alt="Nuclear_fusion_intro"/> -->

@@ -15,7 +15,7 @@
           <label>Email</label><input id="email" name="email" class="form_field_nta" placeholder="Email">
           <label>Company, If Applicable</label><input id="company" name="company" class="form_field_nta" placeholder="Company">
           <label>Subject</label><input id="subject" name="subject" class="form_field_nta" placeholder="Subject">
-          <label>Stuff You Want to Say</label><textarea id="inquiry" name="inquiry" class="form_field_textarea" placeholder="Inquiry"></textarea>
+          <label>Your Message Content</label><textarea id="inquiry" name="inquiry" class="form_field_textarea" placeholder="Inquiry"></textarea>
           <button type="submit" class="submit_button">Submit</button>
         </form>
       </div>
