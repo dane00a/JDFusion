@@ -25,7 +25,7 @@
     else{
       //nothing, essentially
     }
-    $rowcountsql= "SELECT id FROM writeups ORDER BY id;";
+    $rowcountsql= "SELECT id FROM writeups ORDER BY id DESC;";
     if ($result=$conn->query($rowcountsql))
       {
       // Return the number of rows in result set
